@@ -1,0 +1,237 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.index {
+    background-image: url(Imagenes/fotoindex.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Problemática {
+    background-image: url(Imagenes/Foto\ editada\ 8.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Campaña {
+    background-image: url(Imagenes/Foto\ editada\ 153.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto {
+    background-image: url(Imagenes/DISCOS.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+main{
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.central{
+    padding: 50px;
+    width: 60%;
+    position: relative;
+    z-index: 2;
+    color:#ffffff;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    width: 80vw; 
+    height: 40vw;
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    color:#ffffff;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.veladura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+}
+
+.veladura2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}
+
+
+header{
+    height: 10vh;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.2vw;
+ 
+}
+
+footer{
+    height: 5vh;
+    background-color:  rgb(35, 35, 35);
+    padding: 0 40px;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav{
+    width: 500px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+a:hover {
+    
+    color: rgb(205, 203, 203);
+    
+
+}
+
+h2 {
+font-size: 45px;
+font-weight: bold;
+
+}
+
+h1 a:hover{
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.item img {
+    width: 20vw; 
+    height: 20vh;
+    border-radius: 20px; 
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+
+ .contenedor-contacto {
+        background-color: rgb(23, 23, 23);
+        padding: 20px;
+        color: #ffffff;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 1px;
+        opacity: 0.8;
+        max-width: 50%;
+        margin: 0 auto; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+        z-index: 2;  
+    }
+   
+   
+
+.contenedor-problema{
+   
+    background-color: rgb(21, 20, 20);
+    padding: 3vw;
+    color: #ffffff;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    z-index: 2;  
+
+}
+
+.Reducirreciclarreutilizar {
+    font-size: 20px;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 1vh; 
+    transition: transform 0.3s ease; 
+}
+
+.icono:hover {
+    transform: scale(1.2);
+    
+}
+
+.contenido-campaña {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 3vw; 
+    height: 90vh;
+    z-index: 2;  
+    margin: 5vh auto;
+}
+
+.contenido-campaña .texto {
+    width: 35%; 
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.2vw;
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+}
+
+.contenido-campaña .imagen img {
+    width: 60%; 
+    height: auto;
+    max-height: 85vh; 
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+
